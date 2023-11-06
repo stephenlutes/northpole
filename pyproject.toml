@@ -77,6 +77,15 @@ all = [
   "typing",
 ]
 
+[tool.hatch.envs.docs]
+dependencies = [
+  "sphinx",
+  "sphinx-rtd-theme",
+]
+
+[tool.hatch.envs.docs.scripts]
+build = "(cd docs && make html)"
+
 [tool.black]
 target-version = ["py37"]
 line-length = 120

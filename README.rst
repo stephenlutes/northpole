@@ -1,7 +1,7 @@
 NorthPole
 ==========
 
-A set of utilities useful for helping solve Advent of Code challenges.
+A set of utilities useful for solving Advent of Code challenges.
 
 
 Installation

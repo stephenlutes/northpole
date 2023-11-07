@@ -44,3 +44,16 @@ def parse_string(data: str) -> str:
         str: The parsed string
     """
     return data.splitlines()[0]
+
+
+def parse_string_list(data: str) -> list[str]:
+    """
+    Parse the input data by splitting it by line.
+
+    Args:
+        data (str): The input data to parse.
+
+    Returns:
+        list[str]: The input data split by the newline character.
+    """
+    return data.splitlines()

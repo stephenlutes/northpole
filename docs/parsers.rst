@@ -29,7 +29,7 @@ available.
     Parses the given string by splitting by newline characters and returning the first
     string.
 
-    :param data: The data read from the input.txt file
+    :param data: The input data for the challenge.
     :type data: str
 
     :return: The data parsed into a single string.
@@ -43,3 +43,21 @@ available.
     Example 2: Parsed result would be ``sleigh``::
 
         sleigh
+    
+.. function:: parse_string_list(data: str)
+
+    Parses the given string by splitting on the newline characters and returning the 
+    resulting list.
+
+    :param data: The input data for the challenge.
+    :type data: str
+
+    :return: The data split into a list of strings.
+    :rtype: list[str]
+
+    Example::
+
+        data = "Rudolph\n\Comet\nBlitzen"
+        parse_string_list(data)
+
+        Result: ["Rudolph", "Comet", "Blitzen"]

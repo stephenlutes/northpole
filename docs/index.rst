@@ -7,3 +7,4 @@ A set of utilities useful for solving Advent of Code challenges.
    :maxdepth: 2
 
    parsers
+   utils

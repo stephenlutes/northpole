@@ -10,6 +10,12 @@ available.
     Parses the given string by splitting by newline characters and returning the first
     string.
 
+    :param data: The data read from the input.txt file
+    :type data: str
+
+    :return: The data parsed into a single string.
+    :rtype: str
+
     Example 1: Parsed result would be ``santa``::
 
         santa
@@ -18,9 +24,3 @@ available.
     Example 2: Parsed result would be ``sleigh``::
 
         sleigh
-
-    :param data: The data read from the input.txt file
-    :type data: str
-
-    :return: The data parsed into a single string.
-    :rtype: str
